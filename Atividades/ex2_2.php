@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilo/CSS.css" />
     <title>INGRESSOS</title>
 </head>
 <body>
+    <div class = "resultado">
     <?php
         $aluno = $_GET["slcYN"];
         $valor = $_GET["slcValor"];
@@ -21,5 +23,6 @@
             echo "Valor total do ingresso: R$$ingresso";
         }
     ?>
+</div>
 </body>
 </html>
