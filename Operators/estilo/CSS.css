@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #d1e6f7;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    background-color: #f7e2d1;
+    width: 40%;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 10% auto;
+    align-items: center;
+    text-align: center;
+}
+
+#input1, #input2 {
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+}
+
+#verificar, #limpar {
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto 15px;
+    width: 100px;
+}
+
+#verificar:hover, #limpar:hover {
+    background-color: azure;
+}
