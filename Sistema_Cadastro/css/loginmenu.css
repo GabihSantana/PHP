@@ -1,0 +1,202 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* TELA DE LOGIN */
+
+.titulologin{
+    text-align: center;
+}
+
+.caixas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caixas .txtinfo{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+}
+
+.caixas .submit{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 50%;
+    margin-right: 0px;
+    margin-left: auto;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #FFC2B5;
+}
+
+.caixas .submit:hover{
+    background-color: #fd9d88;
+}
+
+#cxlogin{
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px;
+    border-color: #FFF;
+    background-color: #ced9db;
+    font-weight: 600;
+}
+
+figure{
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+.figura1{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.figura1:hover{
+    opacity: 0.9;
+}
+
+/* FIM TELA DE LOGIN */
+
+/* MENU */
+
+.header{
+    background-color: rgba(206, 217, 219, 0.7);
+    padding: 20px;
+    margin: auto;
+    display: flex;
+}
+
+.header a{
+    margin-right: 10px;
+    margin-left: auto;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: #fd9d88;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30px;
+    height: 20px;
+}
+
+.header a:hover{
+    background-color: #e95837;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0px #000,
+    0 0 25px #000;
+}
+
+.header p{
+    font-weight: bold;
+}
+
+
+h1, #menu{
+    place-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 30px;
+    color: #293241;
+}
+
+#menu img{
+    width: 150px;
+    height: 150px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: rgba(206, 217, 219, 0.7);
+}
+
+#menu .opcoes{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    margin: 15px auto;
+    margin-left: 20px;
+}
+
+#menu a:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0px #000,
+    0 0 25px #000;
+}
+
+.cadCli{
+    background-color: #F4EEED;
+}
+
+.cadCli:hover{
+    background-color: #fcfcfc;
+}
+
+.buscaCli{
+    background-color:#F2DBD5;
+}
+
+.buscaCli:hover{
+    background-color:#ebbfb4;
+}
+
+.listaCli{
+    background-color: #FAF4E3;
+}
+
+.listaCli:hover{
+    background-color: #f8e9be;
+}
+
+.cadPro{
+    background-color: #f3edf4;
+}
+
+.cadPro:hover{
+    background-color: #f4daf8;
+}
+
+.buscaPro{
+    background-color: #f0d5f2;
+}
+
+.buscaPro:hover{
+    background-color: #eeb9f1;
+}
+
+.listaPro{
+    background-color: #e8e3fa;
+}
+
+.listaPro:hover{
+    background-color: #cdc1f8;
+}

@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, .cadastro{
+    place-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 30px;
+    color: #293241;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 8px;
+    width: 40%;
+    background-color: #ced9db;
+}
+
+.content{
+    place-items: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 8px;
+    width: 40%;
+    background-color: #ced9db;
+}
+
+.cadastro .txtInfo{
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+}
+
+.cadastro .botao{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 50%;
+    margin-right: 0px;
+    margin-left: auto;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgba(162, 174, 176, 0.5);
+}
+
+.cadastro .botao:hover{
+    background-color: rgba(162, 174, 176, 1);
+    transform: scale(1.05);
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: #000;
+    background-color:rgba(162, 174, 176, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+}
+
+.cadastro form .cxbusca{
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    width: 350px;
+}
+
+.voltar a img{
+    width: 40px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: 190px;
+
+}
+
+.delete{
+    text-decoration: none;
+    color: rgb(247, 8, 8);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
